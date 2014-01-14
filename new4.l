@@ -1,3 +1,4 @@
+/*sadsadadasdasdadasd*/
 %option noyywrap
 
 %{
@@ -72,7 +73,7 @@ erro .
 {e}        {printf("Token e: %s\n", yytext);}
 {ou}   {printf("Token ou: %s\n", yytext);}
 {soma}   {printf("Token soma: %s\n", yytext);}
-{sub}   {printf("Token subtração: %s\n", yytext);}
+{sub}   {printf("Token subtracao: %s\n", yytext);}
 {mult}   {printf("Token multiplicacao: %s\n", yytext);}
 {div}   {printf("Token divisao: %s\n", yytext);}
 {str} {printf("STRING: %s\n", yytext);}
