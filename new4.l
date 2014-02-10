@@ -77,7 +77,7 @@ erro .
 {mult}   {printf("Token multiplicacao: %s\n", yytext);}
 {div}   {printf("Token divisao: %s\n", yytext);}
 {str} {printf("STRING: %s\n", yytext);}
-{erro} {printf("Token desconhecido");}
+
 
 
 "/*" {fechacom+=1; BEGIN(C_COMMENT); printf("Comentário: ");}
